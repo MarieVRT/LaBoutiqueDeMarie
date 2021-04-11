@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% block carousel %}
+
+{% endblock %}
+{% block content %}
+
+
+<!-- Three columns of text below the carousel -->
+<h3> Nos meilleurs ventes</h3>
+<p> Découvrez les articles les plus vendus.</p>
+<div class="row">
+    {% for product in products %}
+        <div class="col-md-3">
+            {% include 'product/single_product.html.twig' %}
+        </div>
+    {% endfor %}
+</div>
+
+
+<!-- START THE FEATURETTES -->
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading"> Une équipe de passionnés <span class="text-muted"> au grand savoir-faire</span></h2>
+        <p class="lead"> Une équipe aux multiples connaissances saura vous renseigner !</p>
+    </div>
+    <div class="col-md-5">
+        <img src="{{ asset('assets/img/first.jpg') }}" class="img-fluid" alt="Un savoir-faire français">
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading"> Venez nous rencontrer dans nos <span class="text-muted">boutiques en France</span></h2>
+        <p class="lead"> Nous sommes ouvert de 8 heures à 17 heures tous les jours en France. N'hésitez pas à venir nous rendre visite pour obtenir tous les conseils dont vous avez besoin vis à vis de nos produits.</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+        <img src="{{ asset('assets/img/second.jpg') }}" class="img-fluid" alt="Une boutique ouverte toute l'année">
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<!-- /END THE FEATURETTES -->
+
+
+{% endblock %}
+

@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Nous contacter - La Boutique de Marie {% endblock %}
+
+{% block content %}
+    <h2> Nous contacter </h2>
+    <p> N'hésitez pas à prendre contact avec notre équipe. Nous vous répondrons dans les plus brefs délais. </p>
+    {% for message in app.flashes('notice') %}
+        <div class="alert alert-info">{{ message }}</div>
+    {% endfor %}
+        <div class="row">
+            <div class="col-md-8">
+                {{ form(form) }}
+            </div>
+            <class class="col-md-4">
+                <strong> La Boutique de Marie </strong>
+                <hr>
+                99.99.99.99.99 <br/>
+                8 rue des lylas fleuris, 75000 Paris.<br/>
+                contact@laboutiquedemarie.fr <br/>
+            </class>
+        </div>
+{% endblock %}
