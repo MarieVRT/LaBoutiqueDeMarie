@@ -10,30 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ed9c240-4120-4b27-9b23-dd2fc52709d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/boutiquemarie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classe/Cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classe/Mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classe/Search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/SearchType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/address.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/address_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/order.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/order_show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/order/add.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product/single_product.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="1ed9c240-4120-4b27-9b23-dd2fc52709d9" name="Default Changelist" comment="Création site Symfony - La boutique de Marie" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,8 +194,16 @@
       <workItem from="1617824788760" duration="3582000" />
       <workItem from="1617870495908" duration="2517000" />
       <workItem from="1617960699917" duration="25000" />
-      <workItem from="1618166046422" duration="822000" />
+      <workItem from="1618166046422" duration="1011000" />
     </task>
+    <task id="LOCAL-00001" summary="Création site Symfony - La boutique de Marie">
+      <created>1618168921794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618168921794</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +220,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Création site Symfony - La boutique de Marie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création site Symfony - La boutique de Marie" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617826947031">
